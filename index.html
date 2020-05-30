@@ -2,28 +2,40 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="stylkes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <div>
-        <h1>My Postcard</h1>
-        <div>
-        <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png"></img>
+    <form class="postcard">
+        <div class="postcard-header">
+            <h1>My Postcard</h1>
+            <div class="Logo">
+                <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="4geeks-Logo"/>
+            </div>
+        </div>
+
+    <div class="postcard-body">
+        <div class="left-part">
+                <p style="text-align:left">John Connor must survive in order to bring down Skynet. Terminator exterminator extraordinaire.</p>
+                <p>Look at the amazing postcard!</p> 
+        </div>
+        <div class="postcard-list">
+            <input type="text" name="" placeholder="John"/>
+            <input type="text" name="" placeholder="Connor"/>
+            <input type="text" name="" placeholder="T-1000"/>
         </div>
     </div>
-    <div>
-        <p>These are nice words that go on the postcard to make you feel good</p> 
-        <form action="/action_page.php">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
+
+    <div class="postcard-footer">
+        <!-- <div class="button">  -->
+            <input type="submit" value="Send My Postcard">
+            <!-- <button type="button button1"> Send My Postcard</button> -->
+        <!-- </div> -->
     </div>
-    <div></div>
+    </form>
 </body>
 </html>

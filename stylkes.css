@@ -1,3 +1,67 @@
 body {
-    background: whitesmoke
+    background: #171717;
+    font-size: 18px;
+    font-family:'Handlee', cursive;
 }
+.postcard {
+    background: white;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin: auto;
+    }
+.postcard-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.postcard-header img {
+    max-width: 60px;
+}
+input {
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+.postcard-body {
+    overflow:hidden;
+}
+.left-part {
+    float: left;
+    justify-content: space-between;
+    width: 48%;
+}
+.postcard-list {
+    float: right;
+    width: 48%;
+    display: block;
+}
+.postcard-footer {
+    padding: 10px;
+    text-align: center;
+}
+.postcard-footer input[type="submit"] {
+    background-color: #C1C1C1;
+    border: none;
+    border-bottom: 1px solid gray; 
+}
+.postcard-body input[type="text"] {
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Doesn't allow for custimization of color
+    .button {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px;
+    color: solid gray;
+} */
